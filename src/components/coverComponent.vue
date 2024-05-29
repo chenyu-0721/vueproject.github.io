@@ -14,19 +14,19 @@
               <li class="nav-item ">
                   <a href="#" class="nav-link " aria-current="page">
                       <span class="resume-cover-nav-li">首頁</span>
-                      <span class="nav-hover-upperLeft"></span>
-                      <span class="nav-hover-upperRight"></span>
-                      <span class="nav-hover-lowerRight"></span>
-                      <span class="nav-hover-lowerLeft"></span>
+                      <span class="nav-hover-upperLeft-StopPage"></span>
+                      <span class="nav-hover-upperRight-StopPage"></span>
+                      <span class="nav-hover-lowerRight-StopPage"></span>
+                      <span class="nav-hover-lowerLeft-StopPage"></span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#/work" class="nav-link" aria-current="page">
                       <span class="resume-cover-nav-li">作品集</span>
-                      <span class="nav-hover-upperLeft-StopPage"></span>
-                      <span class="nav-hover-upperRight-StopPage"></span>
-                      <span class="nav-hover-lowerRight-StopPage"></span>
-                      <span class="nav-hover-lowerLeft-StopPage"></span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
                   </a>
               </li>
               <li class="nav-item">
