@@ -1,4 +1,6 @@
 # 陳冠宇個人履歷
+歡迎來到[我的個人履歷網站]，裡面介紹了關於我的作品以及技能
+
 
 ## Project setup
 ```
@@ -23,9 +25,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
-# 陳冠宇個人履歷網站
-歡迎來到[我的個人履歷網站]，裡面介紹了關於我的作品以及技能
 
 ## 專業技術：
 ![html](https://github.com/chenyu-0721/monster.github.io/assets/59197038/e8a5f4c7-4419-4697-8838-87f6666a9af6)
