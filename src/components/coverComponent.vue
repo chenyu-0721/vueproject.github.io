@@ -1,299 +1,376 @@
 <template>
-    <div class="border-bottom">
-  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-      <a class="navbar-brand " href="#"><img class="navbar_img"
-              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
-      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+  <div class="border-bottom">
+    <nav class="container container_text navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="navbar_img"
+            src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/Resume.png?alt=media&token=5c1b28b5-1b4c-4edd-b364-10e9800f76c3"
+        /></a>
+        <button
+          class="navbar-toggler navbar-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav resume-cover-nav-margin">
-              <li class="nav-item ">
-                  <a href="#" class="nav-link " aria-current="page">
-                      <span class="resume-cover-nav-li">首頁</span>
-                      <span class="nav-hover-upperLeft-StopPage"></span>
-                      <span class="nav-hover-upperRight-StopPage"></span>
-                      <span class="nav-hover-lowerRight-StopPage"></span>
-                      <span class="nav-hover-lowerLeft-StopPage"></span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#/work" class="nav-link" aria-current="page">
-                      <span class="resume-cover-nav-li">作品集</span>
-                      <span class="nav-hover-upperLeft"></span>
-                      <span class="nav-hover-upperRight"></span>
-                      <span class="nav-hover-lowerRight"></span>
-                      <span class="nav-hover-lowerLeft"></span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#/serve" class="nav-link" aria-current="page">
-
-                      <span class="resume-cover-nav-li">服務項目</span>
-                      <span class="nav-hover-upperLeft"></span>
-                      <span class="nav-hover-upperRight"></span>
-                      <span class="nav-hover-lowerRight"></span>
-                      <span class="nav-hover-lowerLeft"></span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#blog" class="nav-link " aria-current="page">
-
-                      <span class="resume-cover-nav-li">部落格</span>
-                      <span class="nav-hover-upperLeft"></span>
-                      <span class="nav-hover-upperRight"></span>
-                      <span class="nav-hover-lowerRight"></span>
-                      <span class="nav-hover-lowerLeft"></span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#/callme" class="nav-link " aria-current="page">
-                      <span class="resume-cover-nav-li">聯絡我</span>
-                      <span class="nav-hover-upperLeft"></span>
-                      <span class="nav-hover-upperRight"></span>
-                      <span class="nav-hover-lowerRight"></span>
-                      <span class="nav-hover-lowerLeft"></span>
-                  </a>
-              </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">
+                <span class="resume-cover-nav-li">首頁</span>
+                <span class="nav-hover-upperLeft-StopPage"></span>
+                <span class="nav-hover-upperRight-StopPage"></span>
+                <span class="nav-hover-lowerRight-StopPage"></span>
+                <span class="nav-hover-lowerLeft-StopPage"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#/work" class="nav-link" aria-current="page">
+                <span class="resume-cover-nav-li">作品集</span>
+                <span class="nav-hover-upperLeft"></span>
+                <span class="nav-hover-upperRight"></span>
+                <span class="nav-hover-lowerRight"></span>
+                <span class="nav-hover-lowerLeft"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#/serve" class="nav-link" aria-current="page">
+                <span class="resume-cover-nav-li">服務項目</span>
+                <span class="nav-hover-upperLeft"></span>
+                <span class="nav-hover-upperRight"></span>
+                <span class="nav-hover-lowerRight"></span>
+                <span class="nav-hover-lowerLeft"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link" aria-current="page">
+                <span class="resume-cover-nav-li">部落格</span>
+                <span class="nav-hover-upperLeft"></span>
+                <span class="nav-hover-upperRight"></span>
+                <span class="nav-hover-lowerRight"></span>
+                <span class="nav-hover-lowerLeft"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#/callme" class="nav-link" aria-current="page">
+                <span class="resume-cover-nav-li">聯絡我</span>
+                <span class="nav-hover-upperLeft"></span>
+                <span class="nav-hover-upperRight"></span>
+                <span class="nav-hover-lowerRight"></span>
+                <span class="nav-hover-lowerLeft"></span>
+              </a>
+            </li>
           </ul>
+        </div>
       </div>
+    </nav>
   </div>
-</nav>
-</div>
 
-<div class="row featurette">
-  <div class="resume-aboutMe-col">
+  <div class="row featurette">
+    <div class="resume-aboutMe-col">
       <h2 class="resume-about-title">嗨！我是 陳冠宇</h2>
-          <span class="resume-about-content img-border-bottom">具有一年經驗的前端學習者</span> 
+      <span class="resume-about-content img-border-bottom"
+        >具有一年經驗的前端學習者</span
+      >
       <span class="resume-about-content">熱衷於網頁製作，勤奮的學習</span>
       <div class="title-icon">
-          <a href="https://www.instagram.com/chen012355/"><i class="bi bi-instagram icon"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW"><i
-                  class="bi bi-facebook icon"></i></a>
-          <a href="https://github.com/chenyu-0721/Readme"><i class="bi bi-github icon"></i></a>
+        <a href="https://www.instagram.com/chen012355/"
+          ><i class="bi bi-instagram icon"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW"
+          ><i class="bi bi-facebook icon"></i
+        ></a>
+        <a href="https://github.com/chenyu-0721/Readme"
+          ><i class="bi bi-github icon"></i
+        ></a>
       </div>
+    </div>
+    <div class="resume-aboutMeImg-col">
+      <img
+        src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="img-fluid resume-about-Img"
+      />
+    </div>
   </div>
-  <div class="resume-aboutMeImg-col">
-      <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?q=80&w=2025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          class="img-fluid resume-about-Img">
+
+  <div class="introduction-of-works-blockDiv">
+    <img
+      class="introduction-of-works-title-deco"
+      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true"
+    />
+    <span class="introduction-of-works-BigTitle">作品介紹</span>
+    <img
+      class="introduction-of-works-title-deco"
+      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true"
+    />
   </div>
-</div>
 
-
-
-
-<div class="introduction-of-works-blockDiv">
-  <img class="introduction-of-works-title-deco"
-      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <span class="introduction-of-works-BigTitle">作品介紹</span>
-  <img class="introduction-of-works-title-deco"
-      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
-</div>
-
-
-
-<div class="introduction-of-works-interstellar-travel-background">
-  <div class="position-relative">
+  <div class="introduction-of-works-interstellar-travel-background">
+    <div class="position-relative">
       <div class="introduction-of-works-interstellar-travel-textBox">
-          <div class="introduction-of-works-interstellar-travel-firstBox">
-              <h2 class="introduction-of-works-interstellar-travel-title">香水購物平台</h2>
-              <p class="introduction-of-works-interstellar-travel-content">精緻香氛，尊享品質，網上選購便利。</p>
-              <span class="introduction-of-works-interstellar-travel-hashTag">Node.js express</span>
-              <span class="introduction-of-works-interstellar-travel-hashTag">響應式設計</span>
-              <span class="introduction-of-works-interstellar-travel-hashTag">Bootstrap</span>
-              <hr class="introduction-of-works-interstellar-travel-hr">
-          </div>
+        <div class="introduction-of-works-interstellar-travel-firstBox">
+          <h2 class="introduction-of-works-interstellar-travel-title">
+            香水購物平台
+          </h2>
+          <p class="introduction-of-works-interstellar-travel-content">
+            精緻香氛，尊享品質，網上選購便利。
+          </p>
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >Node.js express</span
+          >
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >響應式設計</span
+          >
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >Bootstrap</span
+          >
+          <hr class="introduction-of-works-interstellar-travel-hr" />
+        </div>
 
-          <div class="introduction-of-works-interstellar-travel-button-box">
-              <a class="btn btn-dark introduction-of-works-interstellar-travel-button" href="https://github.com/chenyu-0721/perfume2.0.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right introduction-of-works-interstellar-travel-rightIcon"></i>
-              </a>
-          </div>
+        <div class="introduction-of-works-interstellar-travel-button-box">
+          <a
+            class="btn btn-dark introduction-of-works-interstellar-travel-button"
+            href="https://github.com/chenyu-0721/perfume2.0.github.io"
+            role="button"
+          >
+            完整內容
+            <i
+              class="bi bi-arrow-right introduction-of-works-interstellar-travel-rightIcon"
+            ></i>
+          </a>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 
-
-
-
-<div class="marketing introduction-of-works-interstellar-travel-sm">
-  <div class="row featurette">
+  <div class="marketing introduction-of-works-interstellar-travel-sm">
+    <div class="row featurette">
       <div class="col-md-7 order-2 text-center">
         <div class="introduction-of-works-interstellar-travel-firstBox">
-              <h2 class="introduction-of-works-interstellar-travel-title">香水購物平台</h2>
-              <p class="introduction-of-works-interstellar-travel-content">精緻香氛，尊享品質，網上選購便利。</p>
-              <span class="introduction-of-works-interstellar-travel-hashTag">Node.js express</span>
-              <span class="introduction-of-works-interstellar-travel-hashTag">響應式設計</span>
-              <span class="introduction-of-works-interstellar-travel-hashTag">Bootstrap</span>
-              <hr class="introduction-of-works-interstellar-travel-hr">
-          </div>
+          <h2 class="introduction-of-works-interstellar-travel-title">
+            香水購物平台
+          </h2>
+          <p class="introduction-of-works-interstellar-travel-content">
+            精緻香氛，尊享品質，網上選購便利。
+          </p>
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >Node.js express</span
+          >
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >響應式設計</span
+          >
+          <span class="introduction-of-works-interstellar-travel-hashTag"
+            >Bootstrap</span
+          >
+          <hr class="introduction-of-works-interstellar-travel-hr" />
+        </div>
 
-          <div class="introduction-of-works-interstellar-travel-button-box">
-              <a class="btn btn-dark introduction-of-works-interstellar-travel-button" href="https://github.com/chenyu-0721/perfume2.0.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right introduction-of-works-interstellar-travel-rightIcon"></i>
-              </a>
-          </div>
+        <div class="introduction-of-works-interstellar-travel-button-box">
+          <a
+            class="btn btn-dark introduction-of-works-interstellar-travel-button"
+            href="https://github.com/chenyu-0721/perfume2.0.github.io"
+            role="button"
+          >
+            完整內容
+            <i
+              class="bi bi-arrow-right introduction-of-works-interstellar-travel-rightIcon"
+            ></i>
+          </a>
+        </div>
       </div>
       <div class="col-md-5 order-1">
-          <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd"
-              class="img-fluid " style="height:350px">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd"
+          class="img-fluid"
+          style="height: 350px"
+        />
       </div>
+    </div>
   </div>
-</div>
 
-
-
-<div class="financial-management-Img">
-  <div class="position-relative">
+  <div class="financial-management-Img">
+    <div class="position-relative">
       <div class="financial-management-textBox">
-          <div class="financial-management-firstBox">
-              <h2 class="financial-management-title">快樂飲料店</h2>
-              <p class="financial-management-content">色彩繽紛，口感豐富，帶來快樂的飲品體驗。</p>
-              <span class="financial-management-hashTag">響應式設計</span>
-              <span class="financial-management-hashTag">網頁設計</span>
-              <span class="financial-management-hashTag">Bootstrap</span>
-              <hr class="financial-management-hr" />
-          </div>
-          <div class="financial-management-button-box">
-              <a class="btn btn-dark financial-management-button" href="https://github.com/chenyu-0721/drinkshop.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right financial-management-rightIcon"></i>
-              </a>
-          </div>
+        <div class="financial-management-firstBox">
+          <h2 class="financial-management-title">快樂飲料店</h2>
+          <p class="financial-management-content">
+            色彩繽紛，口感豐富，帶來快樂的飲品體驗。
+          </p>
+          <span class="financial-management-hashTag">響應式設計</span>
+          <span class="financial-management-hashTag">網頁設計</span>
+          <span class="financial-management-hashTag">Bootstrap</span>
+          <hr class="financial-management-hr" />
+        </div>
+        <div class="financial-management-button-box">
+          <a
+            class="btn btn-dark financial-management-button"
+            href="https://github.com/chenyu-0721/drinkshop.github.io"
+            role="button"
+          >
+            完整內容
+            <i class="bi bi-arrow-right financial-management-rightIcon"></i>
+          </a>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 
-
-
-<div class="marketing financial-management-Img-sm">
-  <div class="row featurette">
+  <div class="marketing financial-management-Img-sm">
+    <div class="row featurette">
       <div class="col-md-7 order-2 text-center">
         <div class="financial-management-firstBox">
-              <h2 class="financial-management-title">快樂飲料店</h2>
-              <p class="financial-management-content">色彩繽紛，口感豐富，帶來快樂的飲品體驗。</p>
-              <span class="financial-management-hashTag">響應式設計</span>
-              <span class="financial-management-hashTag">網頁設計</span>
-              <span class="financial-management-hashTag">Bootstrap</span>
-              <hr class="financial-management-hr" />
-          </div>
-          <div class="financial-management-button-box">
-              <a class="btn btn-dark financial-management-button" href="https://github.com/chenyu-0721/drinkshop.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right financial-management-rightIcon"></i>
-              </a>
-          </div>
+          <h2 class="financial-management-title">快樂飲料店</h2>
+          <p class="financial-management-content">
+            色彩繽紛，口感豐富，帶來快樂的飲品體驗。
+          </p>
+          <span class="financial-management-hashTag">響應式設計</span>
+          <span class="financial-management-hashTag">網頁設計</span>
+          <span class="financial-management-hashTag">Bootstrap</span>
+          <hr class="financial-management-hr" />
+        </div>
+        <div class="financial-management-button-box">
+          <a
+            class="btn btn-dark financial-management-button"
+            href="https://github.com/chenyu-0721/drinkshop.github.io"
+            role="button"
+          >
+            完整內容
+            <i class="bi bi-arrow-right financial-management-rightIcon"></i>
+          </a>
+        </div>
       </div>
       <div class="col-md-5 order-1">
-          <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87"
-              class="img-fluid " style="height:350px">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87"
+          class="img-fluid"
+          style="height: 350px"
+        />
       </div>
+    </div>
   </div>
-</div>
 
-<div class="medical-beauty-clinic-background">
-  <div class="position-relative">
+  <div class="medical-beauty-clinic-background">
+    <div class="position-relative">
       <div class="medical-beauty-clinic-textBox">
-          <div class="medical-beauty-clinic-firstBox">
-              <h2 class="medical-beauty-clinic-title">Capoo vs Rabbit</h2>
-              <p class="medical-beauty-clinic-content">機制出招，享受遊戲</p>
-              <span class="medical-beauty-clinic-hashTag">網頁設計</span>
-              <span class="medical-beauty-clinic-hashTag">響應式設計</span>
-              <span class="medical-beauty-clinic-hashTag">Vue</span>
-          </div>
-          <div class="medical-beauty-clinic-button-box">
-              <a class="btn btn-dark medical-beauty-clinic-button" href="https://github.com/chenyu-0721/monster.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
-              </a>
-          </div>
+        <div class="medical-beauty-clinic-firstBox">
+          <h2 class="medical-beauty-clinic-title">Capoo vs Rabbit</h2>
+          <p class="medical-beauty-clinic-content">機制出招，享受遊戲</p>
+          <span class="medical-beauty-clinic-hashTag">網頁設計</span>
+          <span class="medical-beauty-clinic-hashTag">響應式設計</span>
+          <span class="medical-beauty-clinic-hashTag">Vue</span>
+        </div>
+        <div class="medical-beauty-clinic-button-box">
+          <a
+            class="btn btn-dark medical-beauty-clinic-button"
+            href="https://github.com/chenyu-0721/monster.github.io"
+            role="button"
+          >
+            完整內容
+            <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
+          </a>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 
-
-
-
-
-<div class="marketing medical-beauty-clinic-sm">
-  <div class="row featurette">
+  <div class="marketing medical-beauty-clinic-sm">
+    <div class="row featurette">
       <div class="col-md-7 order-2 text-center">
         <div class="medical-beauty-clinic-firstBox">
-              <h2 class="medical-beauty-clinic-title">Capoo vs Rabbit</h2>
-              <p class="medical-beauty-clinic-content">機制出招，享受遊戲</p>
-              <span class="medical-beauty-clinic-hashTag">網頁設計</span>
-              <span class="medical-beauty-clinic-hashTag">響應式設計</span>
-              <span class="medical-beauty-clinic-hashTag">Vue</span>
-          </div>
-          <div class="medical-beauty-clinic-button-box">
-              <a class="btn btn-dark medical-beauty-clinic-button" href="https://github.com/chenyu-0721/monster.github.io" role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
-              </a>
-          </div>
+          <h2 class="medical-beauty-clinic-title">Capoo vs Rabbit</h2>
+          <p class="medical-beauty-clinic-content">機制出招，享受遊戲</p>
+          <span class="medical-beauty-clinic-hashTag">網頁設計</span>
+          <span class="medical-beauty-clinic-hashTag">響應式設計</span>
+          <span class="medical-beauty-clinic-hashTag">Vue</span>
+        </div>
+        <div class="medical-beauty-clinic-button-box">
+          <a
+            class="btn btn-dark medical-beauty-clinic-button"
+            href="https://github.com/chenyu-0721/monster.github.io"
+            role="button"
+          >
+            完整內容
+            <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
+          </a>
+        </div>
       </div>
       <div class="col-md-5 order-1">
-          <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95"
-              class="img-fluid " style="height:350px">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95"
+          class="img-fluid"
+          style="height: 350px"
+        />
       </div>
+    </div>
   </div>
-</div>
 
+  <div class="service-items-img">
+    <div class="introduction-of-works-blockDiv">
+      <img
+        class="introduction-of-works-title-deco"
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true"
+      />
+      <span class="introduction-of-works-BigTitle">學習項目</span>
+      <img
+        class="introduction-of-works-title-deco"
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true"
+      />
+    </div>
 
-<div class="service-items-img">
-<div class="introduction-of-works-blockDiv">
-<img class="introduction-of-works-title-deco"
-    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-<span class="introduction-of-works-BigTitle">學習項目</span>
-<img class="introduction-of-works-title-deco"
-    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
-</div>
-
-  <div class="container">
-      <div class="row row-cols-1 g-3  justify-content-center  ">
-          <div class="border bg-dark service-items-box">
-              <img
-                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/price-item-front-end.svg">
-              前端開發
-          </div>
-          <div class="border bg-dark service-items-box">
-              <img
-                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/price-item-ui.svg">
-              Vue框架
-          </div>
-          <div class="border bg-dark service-items-box">
-              <img
-                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/service-item-html%26css.svg">
-              RWD響應式設計
-          </div>
+    <div class="container">
+      <div class="row row-cols-1 g-3 justify-content-center">
+        <div class="border bg-dark service-items-box">
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/price-item-front-end.svg"
+          />
+          前端開發
+        </div>
+        <div class="border bg-dark service-items-box">
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/price-item-ui.svg"
+          />
+          Vue框架
+        </div>
+        <div class="border bg-dark service-items-box">
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/service-item-html%26css.svg"
+          />
+          RWD響應式設計
+        </div>
       </div>
-  </div>
-  <h2 class="service-items-title">想要瞭解關於我的資訊？</h2>
-  <div class="service-items-button-box">
-      <a class="btn btn-dark service-items-button" href="https://github.com/chenyu-0721/resume1.github.io" role="button">
-          詳細內容前往
-          <i class="bi bi-arrow-right service-items-rightIcon"></i>
+    </div>
+    <h2 class="service-items-title">想要瞭解關於我的資訊？</h2>
+    <div class="service-items-button-box">
+      <a
+        class="btn btn-dark service-items-button"
+        href="https://github.com/chenyu-0721/resume1.github.io"
+        role="button"
+      >
+        詳細內容前往
+        <i class="bi bi-arrow-right service-items-rightIcon"></i>
       </a>
+    </div>
   </div>
-</div>
 
+  <div class="introduction-of-works-blockDiv">
+    <img
+      class="introduction-of-works-title-deco"
+      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true"
+    />
+    <span class="introduction-of-works-BigTitle">精選文章</span>
+    <img
+      class="introduction-of-works-title-deco"
+      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true"
+    />
+  </div>
 
-
-<div class="introduction-of-works-blockDiv">
-  <img class="introduction-of-works-title-deco"
-      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <span class="introduction-of-works-BigTitle">精選文章</span>
-  <img class="introduction-of-works-title-deco"
-      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
-</div>
-
-
-<div class="album py-5 introduction">
+  <div class="album py-5 introduction">
     <swiper
       :slidesPerView="3"
       :spaceBetween="30"
@@ -305,168 +382,193 @@
     >
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
-                              UI/UX 設計重點大公開
-                              (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2024/02/10</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2024/02/10</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">給設計師和工程師的 Figma-Dev Mode
-                              開發模式使用指南 (下)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2023/11/20</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2023/11/20</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">給設計師和工程師的 Figma-Dev Mode
-                              開發模式使用指南 (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2023/10/18</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2023/10/18</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image4.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
-                              UI/UX 設計重點大公開
-                              (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2024/02/10</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image4.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2024/02/10</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image5.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
-                              UI/UX 設計重點大公開
-                              (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2024/02/10</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image5.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2024/02/10</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image6.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
-                              UI/UX 設計重點大公開
-                              (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2024/02/10</span>
-                      </div>
-                  </div>
-              </div>
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image6.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2024/02/10</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
       <swiper-slide>
-         <div class="card">
-                  <img class="featured-articlescard-img-top"
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image7.png?raw=true">
-                  <div class="card-body">
-                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
-                              UI/UX 設計重點大公開
-                              (上)</span>
-                      <div class="featured-articlescard-img-hashtag-box">
-                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
-                          <span class="featured-articlescard-img-time ">2024/02/10</span>
-                      </div>
-                  </div>
-              </div>
+        <div class="card">
+          <img
+            class="featured-articlescard-img-top"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image7.png?raw=true"
+          />
+          <div class="card-body">
+            <span class="featured-articlescard-img-content"
+              >Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</span
+            >
+            <div class="featured-articlescard-img-hashtag-box">
+              <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+              <span class="featured-articlescard-img-time">2024/02/10</span>
+            </div>
+          </div>
+        </div>
       </swiper-slide>
     </swiper>
   </div>
 
-<div class="anypage-footer-img " >
-  <div class="container">
+  <div class="anypage-footer-img">
+    <div class="container">
       <footer class="anypage-footer">
-          <div class="anypage-footer-box1">
-        
-              <span class="anypage-footer-box-content">若有前端正職、後端實習工作職缺。</span>
-              <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
-              <span class="anypage-footer-box-gmail">chen630602@gmail.com</span>
-          </div>
-          <div class="anypage-footer-box2">
-              <a class="text-muted" href="https://www.instagram.com/chen012355/">
-                  <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
-                          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">Instagram
-                  </button>
-              </a>
+        <div class="anypage-footer-box1">
+          <span class="anypage-footer-box-content"
+            >若有前端正職、後端實習工作職缺。</span
+          >
+          <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
+          <span class="anypage-footer-box-gmail">chen630602@gmail.com</span>
+        </div>
+        <div class="anypage-footer-box2">
+          <a class="text-muted" href="https://www.instagram.com/chen012355/">
+            <button
+              type="button"
+              class="btn btn-outline-dark anypage-footer-box-Button"
+            >
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg"
+              />Instagram
+            </button>
+          </a>
 
-              <a class="text-muted" href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
-                  <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
-                      <img
-                          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">Facebook
-                  </button>
-              </a>
-
-          </div>
+          <a
+            class="text-muted"
+            href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-dark anypage-footer-box-Button"
+            >
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg"
+              />Facebook
+            </button>
+          </a>
+        </div>
       </footer>
+    </div>
   </div>
-</div>
-  </template>
-  
+</template>
 
-  <script>
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-  
-  // Import Swiper styles
-  import 'swiper/css';
-  import 'swiper/css/pagination';
-  
-  // import required modules
-  import { Pagination } from 'swiper/modules';
-  
-  export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      return {
-        modules: [Pagination],
-      };
-    },
-  };
-  </script>
+<script>
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue'
 
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/pagination'
 
+// import required modules
+import { Pagination } from 'swiper/modules'
+
+export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Pagination],
+    }
+  },
+}
+</script>
 
 <style scoped>
- /* * nav */
+/* * nav */
 nav {
   padding: 32px !important;
 }
@@ -621,7 +723,7 @@ nav {
 }
 
 .title-icon {
-  padding-top:10px;
+  padding-top: 10px;
   font-size: 40px;
 }
 /* *首頁 自我介紹 篇*/
@@ -789,7 +891,7 @@ nav {
 /* * 作品介紹 -- 星際旅行 */
 
 .introduction-of-works-interstellar-travel-background {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -964,7 +1066,7 @@ nav {
 /* * 首頁 作品介紹 理財App 大螢幕區 */
 
 .financial-management-Img {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1121,7 +1223,7 @@ nav {
 /* * 作品介紹 -- 醫美診所 */
 
 .medical-beauty-clinic-background {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1286,7 +1388,7 @@ nav {
 }
 
 .service-items-img {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/services.png?alt=media&token=bbf1a669-b6c9-489f-ae3d-f735e40e0157");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/services.png?alt=media&token=bbf1a669-b6c9-489f-ae3d-f735e40e0157');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1306,7 +1408,10 @@ nav {
   margin-left: 16px;
   font-size: 28px;
   color: rgba(255, 255, 255, 1);
-  transition: box-shadow 1s, background-color 1s, filter 1s;
+  transition:
+    box-shadow 1s,
+    background-color 1s,
+    filter 1s;
 }
 
 .service-items-box:hover {
@@ -1437,7 +1542,7 @@ nav {
 /* * Footer  */
 
 .anypage-footer-img {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/footer-lg.png?alt=media&token=ae3be735-f3bc-441a-bbde-86a707aec50e");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/footer-lg.png?alt=media&token=ae3be735-f3bc-441a-bbde-86a707aec50e');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1548,5 +1653,4 @@ nav {
     padding: 4px 24px 4px 24px;
   }
 }
-
-  </style>
+</style>

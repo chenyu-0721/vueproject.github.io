@@ -1,23 +1,23 @@
-import { createRouter, createWebHashHistory } from "vue-router";
-import coverComponent from "../components/coverComponent.vue";
-import workComponent from "../components/workComponent.vue";
+import { createRouter, createWebHashHistory } from 'vue-router'
+import coverComponent from '../components/coverComponent.vue'
+import workComponent from '../components/workComponent.vue'
 
 const routes = [
   {
-    path: "/",
-    name: "home",
+    path: '/',
+    name: 'home',
     component: coverComponent,
   },
   {
-    path: "/work",
-    name: "work",
+    path: '/work',
+    name: 'work',
     component: workComponent,
   },
-];
+]
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
-});
+})
 
-export default router;
+export default router
